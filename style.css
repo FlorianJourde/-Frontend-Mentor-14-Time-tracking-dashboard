@@ -12,8 +12,8 @@
   --clr-pale-blue: hsl(236, 100%, 87%);
   --fs-body: 0.9rem;
   --fs-h1: 1.5rem;
-  --fs-h2: 2rem;
-  --fs-h3: 1.1rem;
+  --fs-h3: 2rem;
+  --fs-h2: 1.1rem;
   --ff-primary: Rubik, sans-serif;
   --br-primary: 15px;
   --tr-primary: 0.5s all ease;
@@ -47,7 +47,7 @@ main {
 
 a {
   color: var(--clr-desaturated-blue);
-  font-size: var(--fs-h3);
+  font-size: var(--fs-h2);
   text-decoration: none;
   transition: var(--tr-primary);
 }
@@ -61,13 +61,13 @@ h1 {
   font-weight: 300;
 }
 
-h2 {
-  font-size: var(--fs-h2);
+h3 {
+  font-size: var(--fs-h3);
   font-weight: 300;
 }
 
-h3 {
-  font-size: var(--fs-h3);
+h2 {
+  font-size: var(--fs-h2);
   font-weight: 400;
 }
 
@@ -201,7 +201,7 @@ h3 {
 @media screen and (min-width: 600px) and (max-width: 900px) {
   :root {
     --fs-h1: 2.5rem;
-    --fs-h2: 3.5rem;
+    --fs-h3: 3.5rem;
     --pad-primary: 2rem;
   }
 
@@ -269,7 +269,7 @@ h3 {
 @media screen and (min-width: 900px) {
   :root {
     --fs-h1: 2.5rem;
-    --fs-h2: 3.5rem;
+    --fs-h3: 3.5rem;
     --pad-primary: 2rem;
   }
 
@@ -336,7 +336,7 @@ h3 {
     align-items: flex-start;
   }
 
-  .time h2 {
+  .time h3 {
     margin-bottom: 0.1em;
   }
 }

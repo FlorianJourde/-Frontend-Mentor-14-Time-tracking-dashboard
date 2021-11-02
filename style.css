@@ -206,7 +206,6 @@ h2 {
   }
 
   main {
-    /*max-width: 100%;*/
     max-width: 700px;
     display: grid;
     grid-auto-columns: 1fr;
